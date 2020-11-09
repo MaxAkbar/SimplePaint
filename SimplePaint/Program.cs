@@ -2,7 +2,7 @@
 using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Dialogs;
-using Avalonia.Logging.Serilog;
+
 
 namespace SimplePaint
 {

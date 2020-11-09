@@ -12,9 +12,6 @@ namespace SimplePaint
         public MainWindow()
         {
             InitializeComponent();
-#if DEBUG
-            this.AttachDevTools();
-#endif
         }
 
         protected async void Open_Menu(object sender, RoutedEventArgs eventArgs)
