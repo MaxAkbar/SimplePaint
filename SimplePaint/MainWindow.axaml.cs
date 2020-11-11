@@ -21,6 +21,7 @@ namespace SimplePaint
                 // open file dialog
                 OpenFileDialog openFile = new OpenFileDialog();
 
+                openFile.Title = "Image Viewer";
                 openFile.AllowMultiple = false;
                 openFile.Filters.Add(new FileDialogFilter() { Name = "Images", Extensions = { "jpg", "png", "gif" } });
 
